@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main()
 {
-printf("hello world");
+  char str[200];
+scanf("%[^\n]s",str);
+printf("%s",str);
 return 0;
 }
